@@ -1,7 +1,7 @@
 from redis.client import bool_ok
 from ..feature import AbstractFeature
 
-from .commands import *  # lgtm [py/polluting-import]
+from .commands import *
 from ..helpers import parseToList
 from .info import (
     BFInfo,

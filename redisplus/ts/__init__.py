@@ -9,7 +9,7 @@ from .utils import (
 )
 from .info import TSInfo
 from ..helpers import parseToList
-from .commands import *  # lgtm [py/polluting-import]
+from .commands import *
 
 
 class TimeSeries(CommandMixin, AbstractFeature, object):
